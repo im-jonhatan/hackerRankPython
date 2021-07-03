@@ -31,7 +31,7 @@
 # Explanation
 # The first 5 fibonacci numbers are [0, 1, 1, 2, 3], and their cubes are [0, 1, 1, 8, 27].
 
-def cube(x): return pow(x, 3)  # complete the lambda function
+cube = lambda x: pow(x, 3)  # complete the lambda function
 
 
 def fibonacci(n):
