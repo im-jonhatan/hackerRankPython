@@ -38,7 +38,7 @@
 # Explanation
 # dexter@hotmail.com is a valid email address, so we print the name and email address pair received as input on a new line.
 # virus!@ variable.: p is not a valid email address because the username contains an exclamation point (!) and the extension contains a colon (:). As this email is not valid, we print nothing.
-import email.utils as utils
+from  email import utils
 import re
 
 n = int(input())
